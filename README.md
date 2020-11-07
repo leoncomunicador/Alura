@@ -1,0 +1,1 @@
+arquivo criado para apresentar os exercícios de vários cursos da Alura, que vão servir de apoio e reforço aos cursos da Trybe.
