@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+        
+    }
+
+let anoChegadaBrasil = 1500;
+let idadeMediaQuandoTemFilhos = 28;
+let anoAtual = 2020;
+let media = (anoAtual - anoChegadaBrasil)/ idadeMediaQuandoTemFilhos;
+
+mostra("Desde 1500, já passaram no Brasil " + Math.round(media) + " gerações.");
+
+</script>
