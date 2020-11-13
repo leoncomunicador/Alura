@@ -1,17 +1,55 @@
 body {
-    background: #CCCCCC;
 }
 
-h1 {
+#banner {
+  width: 100%;
+}
+
+.principal {
+  background-color: #cccccc;
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.titulo-centralizado {
   text-align: center;
-  
 }
 
 p {
   text-align: center;
-  
+}
+
+#missao {
+  font-size: 20px;
 }
 
 em strong {
-    color: red;
+  color: #ff0000;
+}
+
+.beneficios {
+  background-color: #ffffff;
+  padding: 20px;              /* espaçamento interno dos benefícios para melhorar o visual*/
+}
+
+.itens {
+  font-style: italic;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;  /*colocar a lista e a imagem lado a lado*/
+  vertical-align: top;   /*alinhamento superior da imagem com a lista*/
+  width: 20%;
+  margin-right: 15%;       
+}
+
+.imagembeneficios {
+  width: 50%;
 }
